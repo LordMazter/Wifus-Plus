@@ -29,7 +29,7 @@ body {
    background-color: var(--background-base);
    color: white;
    font-size: 15px;
-   font-family: Times;
+   font-family: "Zilla Slab", Serif;
 }
 
 main {
@@ -51,6 +51,11 @@ main {
    .layout-model {
       width: calc(100% - 40px);
    }
+}
+
+/* @FONTS :::::::::::::::::::::::::::::::::::::::*/
+h1, h2, h3, h4 {
+   font-family: "Eczar", serif;
 }
 
 /* @BUTTONS :::::::::::::::::::::::::::::::::::::*/
@@ -83,6 +88,8 @@ main {
          text-overflow: ellipsis;
          font-weight: 555;
          overflow: hidden;
+         font-family: "Zilla Slab", serif;
+         font-weight: 800;
       }
    }
    
@@ -216,6 +223,7 @@ p {
    border-radius: 999px;
    gap: 9px;
    font-weight: 999;
+   font-family: "Eczar", serif;
    font-style: italic;
    font-size: 19px;
    
@@ -291,6 +299,7 @@ p {
       background: var(--accent-color);
       
       span {
+         font-family: "Eczar", serif;
          font-weight: 555;
          font-size: 20px;
          color: #eadbfe;
