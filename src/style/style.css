@@ -222,19 +222,18 @@ p {
    align-items: center;
    border-radius: 999px;
    gap: 9px;
-   font-weight: 999;
+   font-weight: 800;
    font-family: "Eczar", serif;
-   font-style: italic;
-   font-size: 19px;
+   font-size: 24px;
    
    &::before {
       content: "";
       display: flex;
       width: 30px;
       height: 30px;
-      border-radius: 9px;
-      background: linear-gradient(35deg,
-         #f7d203, #ea34c0, #8703f7, #2e97ea);
+      background-image: url("/src/img/wifusplus-icon.png");
+      background-size: cover;
+      background-position: center;
    }
 }
 
@@ -441,7 +440,9 @@ footer {
    .logo-area {
       display: flex;
       justify-content: space-between;
-      padding: 20px;
+      align-items: center;
+      padding: 0 26px;
+      height: 80px;
       background: var(--background-medium);
       border-radius: 999px;
       margin-top: 40px;
